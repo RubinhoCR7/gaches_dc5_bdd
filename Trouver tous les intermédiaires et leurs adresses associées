@@ -1,0 +1,7 @@
+SELECT 
+intermediary.name, 
+address.address
+FROM
+intermediary, address
+WHERE 
+intermediary.id_address = address.id_address
