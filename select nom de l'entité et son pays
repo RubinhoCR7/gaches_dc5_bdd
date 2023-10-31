@@ -1,0 +1,7 @@
+SELECT 
+entity.name,
+country.country
+FROM 
+entity, country
+WHERE 
+entity.jurisdiction = country.code;
